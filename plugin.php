@@ -4,7 +4,7 @@ Plugin Name: Mailgun Email Validator
 Plugin URI: http://jesin.tk/wordpress-plugins/mailgun-email-validator/
 Description: Kick spam with an highly advanced email validation in comment forms, user registration forms and contact forms using <a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/" target="_blank">Mailgun's Email validation</a> service.
 Author: Jesin
-Version: 1.0
+Version: 1.1
 Author URI: http://jesin.tk/
 */
 
