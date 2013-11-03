@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailgun Email Validator v1.1\n"
+"POT-Creation-Date: 2013-11-03 16:06+0530\n"
+"PO-Revision-Date: 2013-11-03 16:06+0530\n"
+"Last-Translator: Jesin <me@jesin.in>\n"
+"Language-Team: Jesin <me@jesin.in>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin_options.php:23
+#, php-format
+msgid "The %s will not work until a %s is entered."
+msgstr ""
+
+#: ../admin_options.php:29
+msgid "Settings"
+msgstr ""
+
+#: ../admin_options.php:30
+#, php-format
+msgid "More Plugins by %s"
+msgstr ""
+
+#: ../admin_options.php:30
+msgid "More Plugins"
+msgstr ""
+
+#: ../admin_options.php:39 ../admin_options.php:249
+msgid "Email Validation Settings"
+msgstr ""
+
+#: ../admin_options.php:39
+msgid "Email Validation"
+msgstr ""
+
+#: ../admin_options.php:72
+msgid "This field cannot be empty"
+msgstr ""
+
+#: ../admin_options.php:81 ../admin_options.php:105
+msgid "Checking"
+msgstr ""
+
+#: ../admin_options.php:97
+msgid "Please enter an email address to validate"
+msgstr ""
+
+#: ../admin_options.php:140
+msgid "The following error occurred when validating the key."
+msgstr ""
+
+#: ../admin_options.php:147
+msgid "API Key is valid"
+msgstr ""
+
+#: ../admin_options.php:151
+#, php-format
+msgid "Invalid API Key. Error code: %s %s"
+msgstr ""
+
+#: ../admin_options.php:155
+#, php-format
+msgid "A HTTP error occurred when validating the API. Error code: %s %s"
+msgstr ""
+
+#: ../admin_options.php:167
+msgid "The format of the email address is invalid."
+msgstr ""
+
+#: ../admin_options.php:174
+msgid "Please enter a Mailgun Public API and click Save Settings."
+msgstr ""
+
+#: ../admin_options.php:196
+msgid "The following error occured"
+msgstr ""
+
+#: ../admin_options.php:205
+msgid "Address is valid"
+msgstr ""
+
+#: ../admin_options.php:207
+msgid "Address is invalid"
+msgstr ""
+
+#: ../admin_options.php:212
+#, php-format
+msgid "Invalid API Key.%sError code: %s %s"
+msgstr ""
+
+#: ../admin_options.php:239
+#, php-format
+msgid ""
+"Enter your Mailgun Public API key which is shown at the left under %s after "
+"you %slogin%s"
+msgstr ""
+
+#: ../admin_options.php:250
+#, php-format
+msgid ""
+"This plugin requires a Mailgun account which is totally free. %sSignup for a "
+"free account%s"
+msgstr ""
+
+#: ../admin_options.php:257
+msgid "Email Validation Demo"
+msgstr ""
+
+#: ../admin_options.php:258
+msgid "You can use this form to see how mailgun validates email addresses."
+msgstr ""
+
+#: ../admin_options.php:262
+#, php-format
+msgid ""
+"If you find this plugin useful please consider giving it a %sfive star%s "
+"rating."
+msgstr ""
