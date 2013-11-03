@@ -84,6 +84,9 @@ Mailgun has created a [jquery demo](http://mailgun.github.io/validator-demo/) at
 
 == Changelog ==
 
+= 1.1 =
+* Plugin is translation ready
+
 = 1.0 =
 * Initial version
 
