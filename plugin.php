@@ -8,7 +8,7 @@ Version: 1.0
 Author URI: http://jesin.tk/
 */
 
-if(!function_exists('json_decode'))
+if( !function_exists( 'json_decode' ) )
 {
 	function json_decode( $string, $assoc = FALSE )
 	{
@@ -22,7 +22,7 @@ if(!function_exists('json_decode'))
 	}
 }
 
-if(!class_exists('Email_Validation_Mailgun'))
+if( !class_exists( 'Email_Validation_Mailgun' ) )
 {
 	class Email_Validation_Mailgun
 	{
@@ -36,11 +36,12 @@ if(!class_exists('Email_Validation_Mailgun'))
 			$this->basename = plugin_basename( __FILE__ );
 			$this->slug = str_replace( array( basename( __FILE__ ), '/' ), '', $this->basename );
 
-			add_action( 'init', array( &$this, 'plugin_init') );
+			add_action( 'init', array( &$this, 'plugin_init' ) );
 		}
 
 		public function plugin_init()
 		{
+			load_plugin_textdomain( $this->slug, FALSE, $this->slug . '/languages' );
 			add_filter( 'is_email', array( &$this, 'validate_email' ) );
 		}
 
